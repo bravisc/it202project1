@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>IT 202 Midterm Project</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.teal-red.min.css">
+    
+    <link rel="stylesheet" href="gloss_styles.css">
+  
+  </head>
+
+  <body class="mdl-demo mdl-color--grey-250 mdl-color-text--grey-700 mdl-base">
+    <div class ="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <h3>GlossME - About</h3>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+       
+      </header>
+      
+      <main class="mdl-layout__content">
+         <div class="mdl-layout__tab-panel is-active" id="overview">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            
+          <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h3>About</h3>
+                <h5>Data</h5>
+                <p>The data that was used for this project was CityGrid, a resource of that keeps
+                   track of the general information about businesses. The goal is to request businesses.
+                   based of off Zip Code.  Data to be retrieved would be business name, address, website url, and
+                   latitude and longitudes to later be placed as markers on a google map.  The rest of this data would be used
+                   to create new card objects on the results page.
+                </p>
+                <h5>Framework</h5>
+                <p>I chose to use Material Design Lite as the framework. I felt as if the cards would work well being 
+                   generated and it would be in good practice to try something new.
+                </p>
+       
+                <h5>Process</h5>
+                <p>This took an embarressingly long time for how little was achieved - around 15 hours.
+                   Most of the issues were based around trying to find an api that either give me a key or wouldn't give
+                   me any issues in trying to use (which utimately was a failure).
+                   
+                   <br><br> I started off with building the layout of the pages, trying to leave api implementaion until the end.
+                   The most challenging part was requesting data from the api and attempting to work around
+                   CORS.</p>
+                <h5>Info</h5>
+                <p>Git Repo: https://github.com/bravisc/it202project1 <br>
+                   Email: bdavis30@uic.edu or bravisc@outlook.com</p>
+              </div>
+              
+              <div class="mdl-card__actions">
+                <a href="./index.html" class="mdl-button">Return to Homepage</a>
+                
+              </div>
+          </div>
+          <!-- map location -->
+          <div class="mdl-card mdl-cell mdl-cell--7-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+            <div class="container" id="myMap">
+              
+            </div>
+          </div>
+          
+          </section>
+          </div>
+        </main>
+    </div>
+   
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    
+
+    
+
+    </script>
+
+    
+   
+  </body>
+</html>
